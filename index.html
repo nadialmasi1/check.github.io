@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<script>
+function err() {
+	alert('Invalid Username or Password');
+}
+
+</script>
+
+</head>
+<body onload='myFunction()'>
+
+
+
+
+
+
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/44444.jpg');">
+			<div class="wrap-login100 p-t-190 p-b-30">
+				<form class="login100-form validate-form">
+					<div class="login100-form-avatar">
+						<img src="images/avatar-01.jpg" alt="AVATAR">
+					</div>
+					<span class="login100-form-title p-t-20 p-b-45">
+						Log in
+					</span>
+					<div class="wrap-input100 validate-input m-b-10">
+						<input class="input100" type="text" name="username" placeholder="Username">
+					</div>
+					<div class="wrap-input100 validate-input m-b-10">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+					</div>
+					<div class="container-login100-form-btn p-t-10">
+						<button class="login100-form-btn" onclick="err()">
+								Login
+							</button>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+	
+	
+function myFunction() {
+var person = prompt("Please enter your name", "Harry Potter");
+
+    if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+    }
+}
+</script>
+	
+</body>
+</html>
